@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "target": "ES6",
+    "noImplicitAny": true,
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "sourceMap": false,
+    "allowJs": true,
+    "types": ["node"],
+    "lib": ["dom", "es2017", "es2016.array.include"],
+    "outDir": "build",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "exclude": ["**/*.spec.ts"]
+}
